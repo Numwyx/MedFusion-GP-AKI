@@ -1,0 +1,13 @@
+﻿column,dtype,example,description,unit_or_category
+Result,int64,1.0,Categorical variable,"Values: [1, 0]"
+TSCI-Level,int64,1.0,Spinal cord injury level category encoded as integers,"1 = Upper cervical, 2 = Lower cervical, 3 = Upper thoracic, 4 = Lower thoracic"
+VP-Use,int64,0.0,Use of vasopressors within the first 24 hours,"0 = No, 1 = Yes"
+GCS,float64,6.39,Glasgow Coma Scale score used to assess level of consciousness,points
+CCI,float64,5.78,Charlson Comorbidity Index indicating chronic disease burden,points
+HR,float64,57.22,Heart rate measured in beats per minute,beats/min
+MBP,float64,28.33,Mean blood pressure reflecting average arterial pressure,mmHg
+Temp,float64,33.73,Body temperature measured at admission,°C
+WBC,float64,8.94,White blood cell count,×10⁹/L
+HCO3-,float64,14.22,Plasma bicarbonate concentration,mmol/L
+Potassium,float64,4.2,Serum potassium concentration,mmol/L
+Lactate,float64,2.7,Serum lactate concentration,mmol/L
